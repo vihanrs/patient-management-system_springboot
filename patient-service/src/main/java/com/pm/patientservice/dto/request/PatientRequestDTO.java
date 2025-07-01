@@ -32,7 +32,6 @@ public class PatientRequestDTO {
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dateOfBirth;
 
-    @NotNull(message = "Registered date is required")
     @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate registeredDate;
 }
